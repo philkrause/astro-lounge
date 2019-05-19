@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -27,7 +29,6 @@ h1 {
 
 h2 {
   margin: 0%;
-  margin-top: 1rem;
 }
 .top span {
   padding: 0.75rem;
@@ -63,13 +64,95 @@ span a {
   background-color: #ffc107;
   height: 2rem;
   padding: 1rem;
+  margin-top: 0.9rem;
+  padding-top: 1rem;
 }
+
+.news-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+.news-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ededed;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.news-feed h2 {
+  color: black;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.news-feed p {
+  color: black;
+  font-size: 0.95rem;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  width: 100%;
+}
+#details {
+  padding-left: 0.5rem;
+}
+
+#eta {
+  padding-left: 0.5rem;
+}
+
+#launch_name {
+  padding-left: 0.5rem;
+}
+
+.left-button-container {
+  padding-right: 2rem;
+}
+.right-button-container {
+  padding-left: 2rem;
+}
+.left-button {
+  background-color: #ffc107;
+  padding-right: 2rem;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 2rem !important;
+}
+.right-button {
+  background-color: #ffc107;
+  padding-right: 2rem;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 2rem !important;
+}
+
 .bottom {
-  background-color: #d1c4e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e4cbfc;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.bottom h2 {
+  padding-top: 1.5rem;
+  font-size: 1.65rem;
+  font-family: 'Slabo 27px', serif;
 }
 
 .bottom p {
-  padding: 2rem;
+  padding: 0.5rem 1.5rem 1rem 1.5rem;
+  font-size: 0.85rem;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
 }
 
 footer {
@@ -78,43 +161,9 @@ footer {
   background-color: #673ab7;
   height: 5rem;
   align-items: center;
+  color: white;
 }
 
-.news-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 1rem;
-  align-items: center;
-}
-
-.news-feed {
-  display: flex;
-  justify-content: space-between;
-  background-color: #ededed;
-  height: 15rem;
-  width: 76vw;
-  border-radius: 10px;
-}
-
-.news-feed h2 {
-  color: black;
-}
-.left-button-container {
-  padding-right: 8rem;
-}
-.right-button-container {
-  padding-left: 8rem;
-}
-#leftbutton {
-  background-color: #ffc107;
-  padding: 1rem;
-  padding-right: 2rem;
-  border-radius: 0px 10px 10px 0px;
-}
-
-#rightbutton {
-  background-color: #ffc107;
-  padding: 1rem;
-  padding-right: 2rem;
-  border-radius: 10px 0px 0px 10px;
+footer a {
+  color: white;
 }
